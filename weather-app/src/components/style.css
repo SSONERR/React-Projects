@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+}
+
+.block {
+    background: linear-gradient(to right, #071952, #0B666A);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, #35A29F, #97FEED);
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    min-width: 500px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.üst {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cityName {
+    width: 210px;
+    font-size: 35px;
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-left: 40px;
+    height: 40px;
+}
+
+#weather {
+    width: 210px;
+    font-size: 35px;
+    margin-top: 40px;
+    text-align: right;
+    color: rgb(0, 0, 0);
+    margin-right: 40px;
+    height: 40px;
+}
+
+#temp {
+    width: 210px;
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+#clock {
+    width: 210px;
+    font-size: 40px;
+    margin-right: 40px;
+    text-align: right;
+}
+
+input {
+    width: 210px;
+    border-width: 0px;
+    font-size: 35px;
+    font-family: serif;
+    background: none;
+    margin-left: -2px;
+    margin-top: -2px;
+}
+
+input:focus {
+    outline: none;
+    /* Odaklanma efektini kaldır */
+}
+
+#alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #071952, #0B666A);
+    color: white;
+    border-style: inherit;
+    border-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 8px;
+
+}
+
+img {
+    width: 300px;
+}
+
+
+
+#imgBox {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
